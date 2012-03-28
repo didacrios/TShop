@@ -1,0 +1,76 @@
+/* =============================================================================
+	 Tema default de TShop
+   ========================================================================== */
+
+.sidebar {
+	float:left;
+	width:20%;
+}
+
+div[role="main"] {
+	float:left;
+	width:80%;
+}
+
+	/* @fitxa @producte */
+
+.fitxarticle:before, .fitxarticle:after { content: ""; display: table; }
+.fitxarticle:after { clear: both; }
+.fitxarticle { *zoom: 1; }
+
+.fitxarticle  .media {
+	float:left;
+	
+}
+
+.fitxarticle .specs {
+	float:left;
+}
+
+.media .thumbs {
+	margin-top:10px;
+}
+
+.media .thumbs li {
+	float: left;
+	margin-right:5px;
+}
+
+.descripcions {
+	width:100%;
+}
+
+.item {
+	float:left;
+	text-align:center;
+	margin: 10px auto;
+	width:100px;
+}
+
+.item .titol {
+	font-weight:bold;
+	margin:0;
+}
+.item .preu {
+	font-style:italic;
+	margin:0;
+	font-size:90%;
+}
+.comprar {
+	text-decoration:none;
+	width:60%;
+	font-size:80%;
+	font-style:italic;
+	text-align:center;
+	margin: auto;
+	display:block;
+	padding:3px;
+	background:#6ea9f5;
+	color: white;
+}
+
+/* =============================================================================
+	 @login @form
+	 ========================================================================== */
+
+

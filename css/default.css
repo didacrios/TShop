@@ -1,0 +1,21 @@
+/* =============================================================================
+	 Tema default de TShop
+   ========================================================================== */
+
+
+	/* @fitxa @producte */
+
+.fitxarticle:before, .fitxarticle:after { content: ""; display: table; }
+.fitxarticle:after { clear: both; }
+.fitxarticle { *zoom: 1; }
+
+.fitxarticle > .media {
+	float:left
+}
+.fitxarticle > .specs {
+	float:left
+}
+
+.media > .thumbs li {
+	float: left
+}
