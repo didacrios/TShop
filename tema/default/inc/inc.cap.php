@@ -72,7 +72,7 @@
 					</p>
 
 					<p>
-						<a href="registre"><?=$idioma['USUARI_REGISTRE']?></a>
+						<a href="registrar"><?=$idioma['USUARI_REGISTRE']?></a>
 					</p>
 					
 				</form>

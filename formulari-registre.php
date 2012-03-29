@@ -24,7 +24,12 @@ while ($poble = mysql_fetch_array($query)) {
 $query = mysql_query("SELECT * FROM ts_provincies ORDER BY nom_provincia ASC");
 while ($provin = mysql_fetch_array($query)) {
 	$vista['options provincies'] .= '<option value="'.$provin['nom_provincia'].'">'.$provin['nom_provincia'].'</option>';
-}		
+}
+
+// Control d'errors
+if (isset($_GET['error'])) {
+	$els_errors = explode(';', $_GET['error']);	
+}
 
 require(_TEMA_.'formulari-registre.php');
 
