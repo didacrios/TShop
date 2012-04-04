@@ -48,7 +48,7 @@ if (ctype_digit($_GET['pid'])) {
 	require(_TEMA_.'producte.php');
 	
 } else {
-
+echo 'mec:';
 	header("Location: 404.html");
 	exit();
 	
